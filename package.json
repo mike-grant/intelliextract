@@ -1,0 +1,25 @@
+{
+    "name": "@mike-grant/intelliextract",
+    "private": true,
+    "workspaces": [
+        "intelliextract",
+        "examples",
+        "docs"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mike-grant/intelliextract.git"
+    },
+    "packageManager": "yarn@3.6.1",
+    "scripts": {
+        "build": "turbo run build"
+    },
+    "dependencies": {
+        "package": "^1.0.1",
+        "turbo": "^1.10.7"
+    },
+    "devDependencies": {
+        "@tsconfig/recommended": "^1.0.2",
+        "typescript": "^5.0.0"
+    }
+}
