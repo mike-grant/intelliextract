@@ -1,6 +1,6 @@
 {
   "name": "intelliextract",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Using LLMs to search and extract structured data from unstructured data",
   "type": "module",
   "main": "dist/intelliextract.js",
